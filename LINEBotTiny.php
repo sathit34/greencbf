@@ -100,7 +100,7 @@ class LINEBotTiny
         $context = stream_context_create(array(
             "http" => array(
                 "method" => "POST",
-                "header" => implode("\greenbot\lamp", $header),
+                "header" => implode("\r\n", $header),
                 "content" => json_encode($message),
             ),
         ));

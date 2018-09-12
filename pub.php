@@ -36,7 +36,7 @@ function put($url,$tmsg)
      
     curl_setopt($ch, CURLOPT_POSTFIELDS, $tmsg);
  
-    curl_setopt($ch, CURLOPT_USERPWD, "xmWFLfDAfKodr95:b6jcXoUmKtyO0gkHyKLsyH6bb");
+    curl_setopt($ch, CURLOPT_USERPWD, "GFwpWGFrxEA4St5:Uy8bujzJUkwQQKoQhJSVZVRB9");
      
     $response = curl_exec($ch);
      
